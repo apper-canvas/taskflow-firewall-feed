@@ -44,25 +44,28 @@ export const sortTasks = (tasks, sortBy = 'priority') => {
       return a.completed ? 1 : -1
     }
     
-    switch (sortBy) {
-      case 'priority':
+switch (sortBy) {
+      case 'priority': {
         const priorityOrder = { high: 3, medium: 2, low: 1 }
         const priorityDiff = priorityOrder[b.priority] - priorityOrder[a.priority]
         if (priorityDiff !== 0) return priorityDiff
         break
+      }
         
-      case 'dueDate':
+      case 'dueDate': {
         if (a.dueDate && b.dueDate) {
           return new Date(a.dueDate) - new Date(b.dueDate)
         }
         if (a.dueDate) return -1
         if (b.dueDate) return 1
         break
+      }
         
-      case 'category':
+      case 'category': {
         const categoryDiff = a.category.localeCompare(b.category)
         if (categoryDiff !== 0) return categoryDiff
         break
+      }
         
       case 'created':
         return new Date(b.createdAt) - new Date(a.createdAt)
