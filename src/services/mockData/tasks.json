@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "title": "Complete quarterly budget review",
+    "completed": false,
+    "priority": "high",
+    "category": "Work",
+    "dueDate": "2024-01-25",
+    "createdAt": "2024-01-20T09:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 2,
+    "title": "Call dentist for appointment",
+    "completed": false,
+    "priority": "medium",
+    "category": "Personal",
+    "dueDate": "2024-01-22",
+    "createdAt": "2024-01-20T10:30:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 3,
+    "title": "Review project proposals",
+    "completed": true,
+    "priority": "high",
+    "category": "Work",
+    "dueDate": "2024-01-21",
+    "createdAt": "2024-01-19T14:15:00Z",
+    "completedAt": "2024-01-21T16:45:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "Buy groceries for the week",
+    "completed": false,
+    "priority": "low",
+    "category": "Personal",
+    "dueDate": "2024-01-23",
+    "createdAt": "2024-01-20T08:20:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 5,
+    "title": "Update team on project status",
+    "completed": false,
+    "priority": "medium",
+    "category": "Work",
+    "dueDate": "2024-01-22",
+    "createdAt": "2024-01-20T11:45:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 6,
+    "title": "Plan weekend hiking trip",
+    "completed": false,
+    "priority": "low",
+    "category": "Leisure",
+    "dueDate": "2024-01-26",
+    "createdAt": "2024-01-20T13:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 7,
+    "title": "Prepare presentation slides",
+    "completed": false,
+    "priority": "high",
+    "category": "Work",
+    "dueDate": "2024-01-24",
+    "createdAt": "2024-01-20T15:30:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 8,
+    "title": "Read new industry report",
+    "completed": true,
+    "priority": "medium",
+    "category": "Learning",
+    "dueDate": "2024-01-20",
+    "createdAt": "2024-01-18T09:15:00Z",
+    "completedAt": "2024-01-20T18:30:00Z"
+  },
+  {
+    "Id": 9,
+    "title": "Schedule car maintenance",
+    "completed": false,
+    "priority": "medium",
+    "category": "Personal",
+    "dueDate": "2024-01-28",
+    "createdAt": "2024-01-20T16:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 10,
+    "title": "Join online webinar",
+    "completed": false,
+    "priority": "low",
+    "category": "Learning",
+    "dueDate": "2024-01-25",
+    "createdAt": "2024-01-20T17:45:00Z",
+    "completedAt": null
+  }
+]

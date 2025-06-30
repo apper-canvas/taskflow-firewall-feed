@@ -1,0 +1,69 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F8F9FA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Toast styling */
+.Toastify__toast-container {
+  width: 320px;
+}
+
+.Toastify__toast {
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  padding: 16px;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #4ECDC4 0%, #44B3AA 100%);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #FF6B6B 0%, #E55555 100%);
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #FFE66D 0%, #F4D03F 100%);
+  color: #8B4513;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #5B4FF7 0%, #7B68EE 100%);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #4A3FD6 0%, #6A5ACD 100%);
+}
