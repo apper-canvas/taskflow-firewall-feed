@@ -21,7 +21,7 @@ const Layout = () => {
                 <h1 className="text-xl font-bold text-gray-900 font-display">
                   TaskFlow
                 </h1>
-                <p className="text-xs text-gray-600">Organize your day</p>
+                <p className="text-xs text-gray-600">Organize your day 1</p>
               </div>
             </div>
             
