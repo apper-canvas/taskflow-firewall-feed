@@ -292,7 +292,7 @@ const TaskDashboard = () => {
             >
               <div className="mb-6">
                 <h2 className="text-2xl font-bold text-gray-900 font-display">
-                  {editingTask ? 'Edit Task' : 'Create New Task'}
+                  {editingTask ? 'Edit Task' : 'Create New Task 1'}
                 </h2>
                 <p className="text-gray-600 mt-1">
                   {editingTask ? 'Update your task details' : 'Add a new task to your list'}
